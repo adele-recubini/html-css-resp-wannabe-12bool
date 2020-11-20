@@ -5,11 +5,13 @@
   margin-top: 100px;
 }
 
+
 /* BLOCCO LEZIONI */
-#lezioni .container>.left,
+
+/* #lezioni .container>.left,
 #lezioni .container>.right {
-  /* tolgo le percentuali, si adatterà con i col  */
-}
+  tolgo le grandezze che ho rifatto con i col
+}  */
 
 #lezioni .container img {
   /* per centrare orizzontalmente */
@@ -23,11 +25,15 @@
 }
 
 /* BLOCCO STEPS */
-#steps .container>.left,
+
+/* #steps .container>.left,
 #steps .container>.central,
 #steps .container>.right {
-/* tolgo il float e le percentuali per la grandezza perche si adatteranno con i col */
-}
+/* tolgo il float e le percentuali per la grandezza perche
+/* si adatteranno con i col */
+
+
+
 
 #steps {
   text-align: center;
@@ -38,25 +44,27 @@
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
+/* #why .container>.first,
+#why .container>.second,
+#why .container>.third {
   margin-top: 80px;
-}
+  /* tolgo widht 100% e sostituisco lo spazio con col  */
 
-#why .row img {
+
+
+
+#why .container img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
 
-/* COMMON */
-.row::after {
+/* tolgo nel css il clearfix perche ce l ho nel 12bool per le varie col */
+/* .row::after {
   content: '';
   display: table;
   clear: both;
-}
+} */
 
 .container.grey {
   background-color: #f9f9f9;
@@ -66,8 +74,33 @@ img {
   height: 200px;
 }
 
-.clear {
+/* .clear {
   clear: both;
-}
+} */
 
 /* media quesry per le scritte e immagini */
+/*  md e  per intervallo md xs  */
+
+ @media screen and (min-width: 767px) and (max-width: 991px) {
+  h1{
+  font-size: 60px;
+  }
+  h3{
+    font-size: 40px;
+  }
+#lezioni, #steps, #why, #text{
+  font-size: 40px;
+}
+/* per xs */
+@media screen and (max-width: 767px){
+  h1{
+  font-size: 80px;
+  }
+  h3{
+    font-size: 60px;
+  }
+#lezioni, #steps, #why, #text{
+  font-size: 50px;
+}
+
+}
