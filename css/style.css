@@ -84,22 +84,24 @@ img {
  @media screen and (min-width: 767px) and (max-width: 991px) {
   h1{
   font-size: 60px;
+  margin-bottom: 40px;
   }
   h3{
     font-size: 40px;
   }
-#lezioni, #steps, #why, #text{
-  font-size: 40px;
+ #lezioni, #steps, #why, #text{
+  font-size: 30px;
 }
 /* per xs */
 @media screen and (max-width: 767px){
   h1{
   font-size: 80px;
+
   }
   h3{
     font-size: 60px;
   }
-#lezioni, #steps, #why, #text{
+ #lezioni, #steps, #why, #text{
   font-size: 50px;
 }
 
