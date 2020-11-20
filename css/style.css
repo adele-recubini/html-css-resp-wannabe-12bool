@@ -89,11 +89,28 @@ img {
 
  #lezioni, #steps, #why, #text{
   font-size: 30px;
+ }
+
+ #steps .container>.central{
+   padding: 0 10px;
+ }
+
+ #lezioni .container>.right{
+   padding:0 25px;
+ }
+
+ img{
+ margin-top: 50px;
+ }
+
 }
+
 /* per xs */
 @media screen and (max-width: 767px){
+
   h1{
   font-size: 80px;
+  margin-bottom: 40px;
   }
 
   h3{
@@ -102,6 +119,13 @@ img {
 
  #lezioni, #steps, #why, #text{
   font-size: 50px;
-}
+ }
+
+ img{
+ margin-top: 50px;
+ }
+ #steps, #lezioni{
+   padding-left:20px;
+ }
 
 }
